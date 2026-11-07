@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "channel": "edge",
+  "version": "1.2.1",
+  "build": 1,
+  "commit": "ff6e0e314c5506fdc1103abecee4eac20124474e",
+  "publishedAt": "2026-11-07T21:25:15.347Z",
+  "images": {
+    "runtime": "ghcr.io/go-cortex/cortex-runtime@sha256:a0e1a1d8ac4a92965d7d8ae1a0eaa89c2dd5187d0ac92274257f3869dfeffd3d",
+    "operator": "ghcr.io/go-cortex/cortex-workspace-operator@sha256:01482e6fdd3b5bc029b147a814d4c1321b960a2960fffe9b4bdc15150958bc1d"
+  },
+  "chart": {
+    "ref": "oci://ghcr.io/go-cortex/charts/cortex-platform",
+    "version": "0.1.21"
+  },
+  "convex": {
+    "deploy": true
+  },
+  "minCortexctl": "0.1.0",
+  "notesUrl": "https://gocortex.app/releases",
+  "cortexctl": {
+    "version": "0.1.2",
+    "url": "https://github.com/go-cortex/cortex-releases/releases/download/cortexctl-v0.1.2/cortexctl-linux-amd64"
+  }
+}

@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "edge",
   "version": "1.2.7",
-  "build": 1,
-  "commit": "62d0fbb37709fe4982401862518bb308717ff2e0",
-  "publishedAt": "2026-11-23T11:43:06.345Z",
+  "build": 2,
+  "commit": "69e3d6e727070b75fe1cd4e43a530e7cee52874a",
+  "publishedAt": "2026-11-23T13:35:23.433Z",
   "images": {
-    "runtime": "ghcr.io/go-cortex/cortex-runtime@sha256:8c44e5c73b591d2e3cd52ceed10c911bb72a85054be2e1947ae08882e7ea3547",
-    "operator": "ghcr.io/go-cortex/cortex-workspace-operator@sha256:c9f1a5a74e55f6d87d4067ef753d71604b8a0a1a49e54a36bd581f59e851790e"
+    "runtime": "ghcr.io/go-cortex/cortex-runtime@sha256:c9eda8de6b856cb7c90c3f94492c1f3170f7bf75b6934ffd49f05aea445cc158",
+    "operator": "ghcr.io/go-cortex/cortex-workspace-operator@sha256:baaa9156db300b9f794dac2a0cdef000ccad8509163567a91b712c5f9f91d1b8"
   },
   "chart": {
     "ref": "oci://ghcr.io/go-cortex/charts/cortex-platform",
